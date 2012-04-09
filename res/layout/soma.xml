@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent">
+	<TableRow>
+		<TextView android:text="Número 1:" />
+		<EditText android:id="@+id/n1" 
+			android:text=""  
+			android:numeric="integer"/>
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Número 2:"  />
+		<EditText android:id="@+id/n2" 
+			android:text="" 
+			android:numeric="integer"/>
+	</TableRow>
+	<TableRow>
+		<Button android:id="@+id/btSomar" 
+			android:text="Somar Web Service" />
+	</TableRow>
+	<TableRow android:gravity="center">
+		<TextView android:id="@+id/soma" 
+			android:visibility="invisible" />
+	</TableRow>
+</TableLayout>
